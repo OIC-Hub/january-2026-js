@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hello world</p>
+    <button onclick="alert('Hello');">Click me</button>
+    <button onclick="console.log('Showing via inline js');">Another click me</button>
+    <button onclick="document.write('My name is Oga Niyi');">Third click me</button>
+
+    <p id="place"></p>
+    <p id="place2"></p>
+    <!-- Internal -->
+     <script>
+        document.write("This is written using internal JavaScript.");
+        document.write("<p>This is also <b>written</b> using internal JavaScript.</p>");
+        document.write(22);
+        //alert("This is an alert box!");
+        //window.alert("This is also an alert box!");
+        console.log("This is logged to the console.");
+        console.log("This is another console message");
+     </script>
+
+     <!-- External -->
+      <script src="WK1-1-intro.js"></script>
+</body>
+</html>
