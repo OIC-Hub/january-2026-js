@@ -1,0 +1,5 @@
+Consider this array [2, 11, 90, 87, 23, 1, 19, 67, 78, 11, 48]
+
+Find the sum of the odd numbers and even numbers in this array and display them.
+
+Submission is on or before tomorrow's class.
