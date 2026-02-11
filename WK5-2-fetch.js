@@ -38,3 +38,6 @@ fetch(url, fetchData)
     })
     allProducts.innerHTML = myProduct.join('');
 })
+.catch(function(error){
+    alert("Error fetching product");
+})

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #allProducts {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .eachProduct{
+            width: 22%;
+            text-align: center;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            margin-bottom: 30px;
+            padding: 10px;
+            position: relative;
+        }
+
+        .eachProduct img{
+           width: 100%; 
+        }
+
+        .discount{
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: red;
+        }
+
+        .oldPrice{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <p id="time"></p>
+
+    <div id="allProducts"></div>
+
+    <script src="WK5-3-async-fetch.js"></script>
+</body>
+</html>
